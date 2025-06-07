@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-w",
+      "id": "pico",
+      "top": -3.25,
+      "left": -6.05,
+      "attrs": { "env": "micropython-20241129-v1.24.1" }
+    },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -76.5, "left": 138.6, "attrs": {} },
+    {
+      "type": "wokwi-pir-motion-sensor",
+      "id": "pir1",
+      "top": 30.52,
+      "left": 202.1,
+      "rotate": 90,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-gas-sensor",
+      "id": "gas1",
+      "top": 142.6,
+      "left": 109.7,
+      "rotate": 270,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "dht1:VCC", "pico:3V3", "red", [ "v0" ] ],
+    [ "pico:GND.7", "gas1:GND", "black", [ "h99.86", "v25.55" ] ],
+    [ "pico:GND.7", "pir1:GND", "black", [ "h0" ] ],
+    [ "pico:3V3", "gas1:VCC", "red", [ "h0" ] ],
+    [ "pico:3V3", "pir1:VCC", "red", [ "h0" ] ],
+    [ "pico:GND.7", "dht1:GND", "black", [ "h0" ] ],
+    [ "gas1:AOUT", "pico:GP26", "green", [ "v0" ] ],
+    [ "pir1:OUT", "pico:GP14", "green", [ "h0" ] ],
+    [ "pico:GP15", "dht1:SDA", "green", [ "h115.2", "v-134.36", "h47.9" ] ]
+  ],
+  "dependencies": {}
+}
