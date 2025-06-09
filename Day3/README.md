@@ -9,7 +9,7 @@ On Day 3, we successfully **completed the hardware simulation** of our hazardous
 
 ---
 
-## 🧩 Components Used
+##  Components Used
 
 | Component           | Description                              |
 |---------------------|------------------------------------------|
@@ -73,7 +73,7 @@ Real-time sensor values are sent to ThingSpeak every 15 seconds.
 
 ---
 
-## 🧪 Files in the Folder
+##  Files in the Folder
 
 - `feeds_from_ThingSpeak.csv` – Logged data from ThingSpeak.
 - `synthetic_generated_7_days.csv` – Expanded dataset for ML training.
