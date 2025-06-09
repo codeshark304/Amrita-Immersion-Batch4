@@ -47,7 +47,7 @@ The goal was to simulate a hazardous environment monitoring system by integratin
 ##  Tech Stack
 
 - *Microcontroller:* Raspberry Pi Pico W (RP2040)
-- *View the Simulation here:* [Wokwi Simulator]([https://wokwi.com/](https://wokwi.com/projects/433087745117047809))
+- *View the Simulation here:** [Wokwi Simulator]([https://wokwi.com/](https://wokwi.com/projects/433087745117047809))
 - *Programming Language:* MicroPython
 - *Cloud:* ThingSpeak API for data logging
 - *Display:* SSD1306 OLED (128x64)
