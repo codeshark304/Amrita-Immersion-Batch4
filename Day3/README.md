@@ -75,7 +75,6 @@ Real-time sensor values are sent to ThingSpeak every 15 seconds.
 
 ## 🧪 Files in the Folder
 
-- `Circuit Diagram.png` – Complete wiring schematic.
 - `feeds_from_ThingSpeak.csv` – Logged data from ThingSpeak.
 - `synthetic_generated_7_days.csv` – Expanded dataset for ML training.
 - `demo_video.mp4` – Working demo of simulation.
