@@ -22,7 +22,7 @@ The `Project_Presentation_Day5.pptx` file includes:
 
 ---
 
-## 🗂 How to Use
+##  How to Use
 
 1. Download the `.pptx` file.
 2. Open using **Microsoft PowerPoint**, **Google Slides**, or **LibreOffice**.
